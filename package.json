@@ -1,0 +1,19 @@
+{
+  "name": "morsecodetutor",
+  "version": "1.0.0",
+  "description": "Practive your morse code!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lopastudio/MorseCodeTutor.git"
+  },
+  "author": "Patrick & Lopastudio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lopastudio/MorseCodeTutor/issues"
+  },
+  "homepage": "https://github.com/Lopastudio/MorseCodeTutor#readme"
+}
