@@ -1,6 +1,6 @@
 # MorseCodeTutor
 Learn and Train Morse Code FAST!
-Node.JS Chat
+UNDER WORK! THIS DOES NOT WORK IM JUST MAKING IT!
 ============
 [![GitHub Stars](https://img.shields.io/github/stars/Lopastudio/MorseCodeTutor.svg)](https://github.com/Lopastudio/MorseCodeTutor) [![GitHub Issues](https://img.shields.io/github/issues/Lopastudio/MorseCodeTutor.svg)](https://github.com/Lopastudio/MorseCodeTutor/issues) [![Current Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/Lopastudio/MorseCodeTutor)  [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Lopastudio/MorseCodeTutor?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
