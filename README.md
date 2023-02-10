@@ -18,7 +18,7 @@ Whether you use this project, have learned something from it, or just like it, p
 ---
 
 ## Features
-- Material Design
+- Material Designs
 - Emoji support
 - User @mentioning
 - Private messaging
