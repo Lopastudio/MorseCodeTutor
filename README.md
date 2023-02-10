@@ -6,7 +6,7 @@
 
 Learn and Train Morse Code FAST!
 
-![Application Preview](https://imgur.com/lApmTIB)
+![Application Preview](https://i.imgur.com/lApmTIB.png)
 
 ---
 ## Buy me a coffee
