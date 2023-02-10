@@ -2,7 +2,7 @@
 Learn and Train Morse Code FAST!
 Node.JS Chat
 ============
-[![GitHub Stars](https://img.shields.io/github/stars/IgorAntun/node-chat.svg)](https://github.com/IgorAntun/node-chat/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/IgorAntun/node-chat.svg)](https://github.com/IgorAntun/node-chat/issues) [![Current Version](https://img.shields.io/badge/version-1.0.7-green.svg)](https://github.com/IgorAntun/node-chat) [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://igorantun.com/chat) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/IgorAntun/node-chat?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![GitHub Stars](https://img.shields.io/github/stars/Lopastudio/MorseCodeTutor.svg)](https://github.com/Lopastudio/MorseCodeTutor) [![GitHub Issues](https://img.shields.io/github/issues/Lopastudio/MorseCodeTutor.svg)](https://github.com/Lopastudio/MorseCodeTutor/issues) [![Current Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/Lopastudio/MorseCodeTutor)  [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Lopastudio/MorseCodeTutor?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 This is a node.js chat application powered by SockJS and Express that provides the main functions you'd expect from a chat, such as emojis, private messages, an admin system, etc.
 
@@ -56,6 +56,6 @@ To give yourself administrator permissions on the chat, you will have to type `/
 ---
 
 ## License
->You can check out the full license [here](https://github.com/IgorAntun/node-chat/blob/master/LICENSE)
+>You can check out the full license [here](https://github.com/Lopastudio/MorseCodeTutor/blob/master/LICENSE)
 
 This project is licensed under the terms of the **MIT** license.
