@@ -6,7 +6,7 @@
 
 Learn and Train Morse Code FAST!
 
-![Chat Preview](http://i.imgur.com/lgRe8z4.png)
+![Application Preview](https://imgur.com/lApmTIB)
 
 ---
 ## Buy me a coffee
