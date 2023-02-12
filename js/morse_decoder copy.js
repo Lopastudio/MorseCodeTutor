@@ -79,9 +79,9 @@ window.onload = function() {
   function decode() {
     const decodedText = decodeMorse();
     document.getElementById("output").innerText = decodedText;
-    }
-    document.getElementById("decode-button").addEventListener("click", function() {
-      decode();
+  }
+  document.getElementById("decode-button").addEventListener("click", function() {
+    decode();
   });
   
 
