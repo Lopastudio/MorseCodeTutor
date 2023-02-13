@@ -8,50 +8,41 @@ Learn and Train Morse Code FAST!
 
 ![Application Preview](https://i.imgur.com/lApmTIB.png)
 
+
+**What is Morse Code?**
 ---
-## Buy me a coffee
-
-Whether you use this project, have learned something from it, or just like it, please consider supporting it by buying me a coffee, so I can dedicate more time on open-source projects like this :)
-
-<a href="https://www.buymeacoffee.com/igorantun" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-
+- Morse code is method of comumination that uses dots and dashes originally transmitted via a wire and later decoded by the reciever. 
+- It was invented by an Americans Samuel Morse and Alfred Vail in the early 1830s and was first used to send messages across the United States. - Within a few short years, morse code networks spanned the entire world.
+- Today it has been superseded by e-mail and social media but is still used by Radio Amateurs to send messages to each other. 
 ---
+
 
 ## Features
-- Material Designs
-- Emoji support
-- User @mentioning
-- Private messaging
-- Message deleting (for admins)
-- Ability to kick/ban users (for admins)
-- See other user's IPs (for admins)
-- Other awesome features yet to be implemented
 
-![User Features](http://i.imgur.com/WbF1fi2.png)
-
-![Admin Features](http://i.imgur.com/xQFaadt.png)
-
-
-#### There are 3 admin levels:
-- **Helper:** Can delete chat messages
-- **Moderator:** The above plus the ability to kick and ban users
+- **Morse code to Text Decoder:** Can be used to decode messages in order to make them readable by the reciever. 
+- **Text to Morse Code:** Can be used to convert any choosen language into morse code (dots and dashes).
 - **Administrator:** All the above plus send global alerts and promote/demote users
 
 ---
+## Compatibility 
+| Feature | Compatibility | Tested |
+|---------|---------------| ------ |
+| Windows 7 - 11 | ✅ | Tested |
+| Mac OS X | ❌ | ❌ | Untested | 
+| Linux | ❌ | ❌ | Untested | 
 
+Note:
+-  ✅ I am working on its compatibility with MacOS and Linux, but I don't have access to MacOS or Linux machine yes to I can't build a propper version for it. 
+
+
+---
 ## Setup
-Clone this repo to your desktop and run `npm install` to install all the dependencies.
-
-You might want to look into `config.json` to make change the port you want to use and set up a SSL certificate.
+- Windows - Download the installer from [This Link](https://github.com/Lopastudio/MorseCodeTutor/releases) and then just *download your desired form of installer and included .cab file or it will fail to install.* After that you need to copy the serial key from the Release page (The serial key is in place to prevent piracy) and you are good to go.
 
 ---
 
 ## Usage
-After you clone this repo to your desktop, go to its root directory and run `npm install` to install its dependencies.
-
-Once the dependencies are installed, you can run  `npm start` to start the application. You will then be able to access it at localhost:3000
-
-To give yourself administrator permissions on the chat, you will have to type `/role [your-name]` in the app console.
+Just install the application according
 
 ---
 
