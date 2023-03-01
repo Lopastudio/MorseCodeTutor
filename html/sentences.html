@@ -1,114 +1,40 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Morse Code Timed Test</title>
-    <script>
-      const morseCode = {
-        "a": "._",
-        "b": "_...",
-        "c": "_._.",
-        "d": "_..",
-        "e": ".",
-        "f": ".._.",
-        "g": "__.",
-        "h": "....",
-        "i": "..",
-        "j": ".___",
-        "k": "_._",
-        "l": "._..",
-        "m": "__",
-        "n": "_.",
-        "o": "___",
-        "p": ".__.",
-        "q": "__._",
-        "r": "._.",
-        "s": "...",
-        "t": "_",
-        "u": ".._",
-        "v": "..._",
-        "w": ".__",
-        "x": "_.._",
-        "y": "_.__",
-        "z": "__..",
-        "1": ".____",
-        "2": "..___",
-        "3": "...__",
-        "4": "...._",
-        "5": ".....",
-        "6": "_....",
-        "7": "__...",
-        "8": "___..",
-        "9": "____.",
-        "0": "_____"
-      };
-
-      const testWords = ["hello", "world", "javascript", "morse", "code"];
-
-      let currentWord = 0;
-      let score = 0;
-      let timeStarted = 0;
-
-      function startTest() {
-        document.getElementById("inputContainer").style.display = "block";
-        document.getElementById("startButton").style.display = "none";
-        currentWord = 0;
-        score = 0;
-        timeStarted = Date.now();
-        displayCurrentWord();
-      }
-
-      function displayCurrentWord() {
-        document.getElementById("currentWord").innerHTML = testWords[currentWord];
-      }
-
-      function checkAnswer() {
-        const userAnswer = document.getElementById("userAnswer").value;
-        const currentWordMorse = testWords[currentWord]
-          .split("")
-          .map(letter => morseCode[letter.toLowerCase()])
-          .join(" ");
-        if (userAnswer.toLowerCase() === currentWordMorse) {
-          score++;
-        }
-        currentWord++;
-        if (currentWord >= testWords.length) {
-          displayResults();
-        } else {
-          displayCurrentWord();
-          document.getElementById("userAnswer").value = "";
-        }
-      }
-
-        function displayResults() {
-        const timeTaken = (Date.now() - timeStarted) / 1000;
-        document.getElementById("inputContainer").style.display = "none";
-        document.getElementById("resultsContainer").style.display = "block";
-        document.getElementById("timeTaken").innerHTML = timeTaken + " seconds";
-        document.getElementById("score").innerHTML = score + "/" + testWords.length;
-      }
-
-      function resetTest() {
-        document.getElementById("resultsContainer").style.display = "none";
-        document.getElementById("startButton").style.display = "block";
-      }
-    </script>
-  </head>
-  <body>
-    <h1>Morse Code Timed Test</h1>
-    <button id="startButton" onclick="startTest()">Start Test</button>
-    <div id="inputContainer" style="display: none;">
-      <p id="currentWord"></p>
-      <input
-        type="text"
-        id="userAnswer"
-        placeholder="Enter the Morse code for the current word"
-        onkeyup="checkAnswer()"
-      />
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="../css/sentences.css">
+</head>
+<body>
+  <div id="quiz">
+    <h1 id="question"></h1>
+    <div class="options">
+      <div>
+        <input type="radio" name="option" id="optionA" value="">
+        <label for="optionA" id="optionA-label"></label>
+      </div>
+      <div>
+        <input type="radio" name="option" id="optionB" value="">
+        <label for="optionB" id="optionB-label"></label>
+      </div>
+      <div>
+        <input type="radio" name="option" id="optionC" value="">
+        <label for="optionC" id="optionC-label"></label>
+      </div>
+      <div>
+        <input type="radio" name="option" id="optionD" value="">
+        <label for="optionD" id="optionD-label"></label>
+      </div>
     </div>
-    <div id="resultsContainer" style="display: none;">
-      <p>Time taken: <span id="timeTaken"></span></p>
-      <p>Score: <span id="score"></span></p>
-      <button onclick="resetTest()">Reset Test</button>
-    </div>
-  </body>
+    <button id="submit">Submit</button>
+  </div>
+
+  <div id="results">
+    <h2>Quiz Results</h2>
+    <p>Your score: <span id="score"></span></p>
+    <p>Time taken: <span id="time"></span> seconds</p>
+  </div>
+
+  <script src="../js/quiz.js"></script>
+</body>
 </html>
