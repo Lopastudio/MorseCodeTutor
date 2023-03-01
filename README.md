@@ -42,11 +42,11 @@ Note:
 ---
 
 ## Usage
-Just install the application according
+Just install the application according to the **SETUP** paragraph. 
 
 ---
 
 ## License
 >You can check out the full license [here](https://github.com/Lopastudio/MorseCodeTutor/blob/master/LICENSE)
 
-This project is licensed under the terms of the **MIT** license.
+This project is licensed under the terms of the **APACHE 2:0** license.
